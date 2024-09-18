@@ -5,6 +5,7 @@ module.exports = buildSchema(`
       _id: ID!
       name: String!
       subcategories: [SubCategory!]!
+      subcategoriesCount: Int!
     }
 
     type SubCategory {

@@ -29,3 +29,14 @@ const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
+// Query to get count of all subcategories in category
+
+// query {
+//     categories {
+//       _id
+//       name
+//       subCategoryCount
+//     }
+//   }
+  
